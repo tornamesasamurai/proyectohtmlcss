@@ -1,0 +1,13 @@
+.desk{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+.folder{
+    display: flexbox;
+}
+.folder img{
+    width: 50px;
+    
+}
