@@ -1,13 +1,42 @@
 .desk{
     display: flex;
     gap: 50px;
-    margin-top: 50px;
+    height: 600px;
+    background-image: linear-gradient(rgb(36, 124, 206), rgb(56, 189, 223)
+
+    );
     
 }
 .folder{
+    margin-top: 50px;
     display: flexbox;
+    font-family: monospace;
 }
 .folder img{
     width: 50px;
+    text-align: center;
     
+}
+.folder :hover{
+    background-color: rgba(100, 100, 221, 0.541);
+}
+#lowerba{
+    padding-top: 10px;
+    display: flexbox;
+    gap: 50px;
+    background-image: linear-gradient(grey rgb(107, 106, 106));
+}
+#lowerba img{
+    width: 30px;
+
+
+
+}
+.lowerimg :hover{
+background-color: rgba(100, 100, 221, 0.541);
+}
+nav{
+    display: flex;
+    align-content: center;
+    gap: 50px;
 }
